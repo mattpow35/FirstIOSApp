@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController
 {
 
+    @IBOutlet weak var background: UIView!
     
     @IBOutlet weak var firstButton: UIButton!
     
@@ -30,6 +31,7 @@ class ViewController: UIViewController
     {
         firstLabel.text = "you clicked the button!!"
         firstLabel.textColor = UIColor.cyanColor()
+        background.backgroundColor = UIColor.redColor()
     }
 
 }

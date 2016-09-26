@@ -19,7 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHK-bR-dne">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Click here"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="277" y="44" width="46" height="30"/>
                                 </variation>
@@ -52,6 +52,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="background" destination="8bC-Xf-vdC" id="H66-yG-oGG"/>
                         <outlet property="firstButton" destination="RHK-bR-dne" id="DnV-or-XGc"/>
                         <outlet property="firstLabel" destination="Bum-zk-hqR" id="MxQ-A1-c45"/>
                     </connections>
